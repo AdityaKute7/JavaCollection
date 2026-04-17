@@ -6,8 +6,7 @@ class Stack {
     public void push(int data) {
         if (top == 5) {
             System.out.println("Stack is already full");
-        }
-        else{
+        }else{
         stack[top] = data;
         top++;
         }

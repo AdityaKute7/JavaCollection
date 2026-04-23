@@ -11,6 +11,8 @@ public class SetBasics {
         set.add(20);
         set.add(10); // duplicate ignored
 
+        set.remove(10);
+
         System.out.println(set); // [10, 20]
     }
 }
